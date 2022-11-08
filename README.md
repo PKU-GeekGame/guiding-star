@@ -12,7 +12,13 @@ Set up the backend: [refer to README from gs-backend](https://github.com/PKU-Gee
 
 Set up the frontend: [refer to README from gs-frontend](https://github.com/PKU-GeekGame/gs-frontend)
 
-Use a reverse-proxy like `nginx` to proxy requests to backend or frontend: [an example configuration file](example.nginx-host.conf)
+Use a reverse proxy (we use `nginx`) to proxy requests to backend or frontend: [an example configuration file](example.nginx-host.conf)
+
+To register the first user manually, visit `/service/auth/manual?identity=<your_name>`.
+Manual login should be disabled in production environment by configuring `MANUAL_AUTH_ENABLED = False` in `src/secret.py` in the backend codebase.
+
+Visit admin panel at `/<admin_url>`.
+`ADMIN_URL` and `IS_ADMIN` can be configured in `src/secret.py` in the backend codebase.
 
 ## License
 
