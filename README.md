@@ -4,7 +4,7 @@ A CTF contest platform aiming at **maximized possibility of customization** and 
 
 ## Architecture
 
-TODO
+![architecture](architecture.png)
 
 ## Setup
 
