@@ -1,0 +1,17 @@
+[Unit]
+Description=Guiding Star Worker
+After=network.target
+
+[Service]
+User=your_username
+Group=your_username
+Environment=PYTHONUNBUFFERED=1
+WorkingDirectory=/path/to/backend
+ExecStart=/usr/bin/python3 /path/to/backend/run_worker_api.py
+Restart=always
+Type=simple
+StandardOutput=append:/path/to/logs/worker-stdout.log
+StandardError=append:/path/to/logs/worker-stderr.log
+
+[Install]
+WantedBy=multi-user.target
