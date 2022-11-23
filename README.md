@@ -12,7 +12,7 @@ Set up the backend: [refer to README from gs-backend](https://github.com/PKU-Gee
 
 Set up the frontend: [refer to README from gs-frontend](https://github.com/PKU-GeekGame/gs-frontend)
 
-Start the backend processes. We use systemd: example configuration for [reducer](gs-next-reducer.service) and [worker](gs-next-worker.service) processes.
+Start the backend processes. We use systemd: example configuration for [reducer](gs-reducer.service) and [worker](gs-worker.service) processes.
 
 Use a reverse proxy (we use `nginx`) to proxy requests to backend or frontend: [an example configuration file](example.nginx-host.conf).
 
