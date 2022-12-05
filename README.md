@@ -4,7 +4,13 @@ A CTF contest platform aiming at **maximized possibility of customization** and 
 
 ## Architecture
 
-![architecture](architecture.png)
+**Overall backend architecture:**
+
+![architecture](figures/architecture.png)
+
+**Case study: when a user submits a flag**
+
+![submit_flag](figures/submit_flag.svg)
 
 ## Setup
 
