@@ -2,6 +2,16 @@
 
 A CTF contest platform aiming at **maximized possibility of customization** and **a fluid experience for users and developers**.
 
+## Project Index
+
+Backend (in Python) → [PKU-GeekGame/gs-backend](https://github.com/PKU-GeekGame/gs-backend)
+
+Frontend (in React) → [PKU-GeekGame/gs-frontend](https://github.com/PKU-GeekGame/gs-frontend)
+
+Live demo → [geekgame.pku.edu.cn](https://geekgame.pku.edu.cn)
+
+Misc files → This repo
+
 ## Architecture
 
 **Overall backend architecture:**
