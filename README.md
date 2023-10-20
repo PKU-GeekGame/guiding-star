@@ -2,7 +2,7 @@
 
 A CTF contest platform aiming at **maximized possibility of customization** and **a fluid experience for users and developers**.
 
-This platform hosts [PKU GeekGame](https://geekgame.pku.edu.cn) with ≥1000 participants. The server achieves a peak `load_5` of ≤0.5 when all features are turned on.
+This platform hosts the 3rd [PKU GeekGame](https://geekgame.pku.edu.cn) with ≥2000 users and ≥10000 submissions. The server achieves a peak `load_5` of ≤0.5 when all features are turned on.
 
 ## Project Index
 
