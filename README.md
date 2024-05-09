@@ -32,12 +32,12 @@ Set up the frontend: [refer to README from gs-frontend](https://github.com/PKU-G
 
 Start the backend processes. We use systemd: example configuration for [reducer](gs-reducer.service) and [worker](gs-worker.service) processes.
 
-Use a reverse proxy (we use `nginx`) to proxy requests to backend or frontend: [an example configuration file](example.nginx-host.conf).
+Use a reverse proxy (we use `nginx`) to proxy requests to backend or frontend: [an example configuration file](example.nginx-host.conf). Remember to also set a large value for both `worker_rlimit_nofile` and `worker_connections` in `nginx.conf`, because each online user will has a websocket connection to the backend.
 
 To register the first user manually, visit `/service/auth/manual?identity=<your_name>`.
 Manual login should be disabled in production environment by configuring `MANUAL_AUTH_ENABLED = False` in `src/secret.py` in the backend codebase.
 
-Visit admin panel at `/<admin_url>`.
+Visit admin panel at `/<ADMIN_URL>`.
 `ADMIN_URL` and `IS_ADMIN` can be configured in `src/secret.py` in the backend codebase.
 
 ## License
