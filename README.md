@@ -10,6 +10,8 @@ Backend (in Python) → [PKU-GeekGame/gs-backend](https://github.com/PKU-GeekGam
 
 Frontend (in React) → [PKU-GeekGame/gs-frontend](https://github.com/PKU-GeekGame/gs-frontend)
 
+Challenge Docker → [PKU-GeekGame/geekgame-challenge-docker](https://github.com/PKU-GeekGame/geekgame-challenge-docker)
+
 Live demo → [geekgame.pku.edu.cn](https://geekgame.pku.edu.cn)
 
 Misc files → This repo
